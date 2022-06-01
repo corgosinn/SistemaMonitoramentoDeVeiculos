@@ -1,11 +1,18 @@
+'''
+ IMPORTANTE
+ALTERAR CONSTANTES NOME DO BANCO E SENHA DE AMBOS ARQUIVOSANTES DE EXECUTAR
+Thiago Corgosinho Silva - 20.2.8117 - BANCO DE DADOS 1
+'''
+DB_NAME = 'meuBanco'
+DB_PW = '021945'
+
 from tkinter import *
 from tkinter.ttk import Treeview
 from turtle import width
 import psycopg2
 from pyparsing import col
 from operacoesBanco import *
-DB_NAME = 'meuBanco'
-DB_PW = '021945'
+
 
 # Display para Adicionar no BD
 

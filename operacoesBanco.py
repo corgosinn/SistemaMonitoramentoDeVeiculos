@@ -1,6 +1,13 @@
 from tkinter import *
 from unicodedata import name
 import psycopg2
+
+'''
+ IMPORTANTE
+ALTERAR CONSTANTES NOME DO BANCO E SENHA DE AMBOS ARQUIVOSANTES DE EXECUTAR
+Thiago Corgosinho Silva - 20.2.8117 - BANCO DE DADOS 1
+'''
+
 DB_NAME = 'meuBanco'
 DB_PW = '021945'
 
